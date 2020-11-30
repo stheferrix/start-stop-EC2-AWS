@@ -108,3 +108,5 @@ In the next step, configure details like name and description and create a rule:
 ![null](https://www.lazarete.com.br/images/uploads/create-rule-cloudwatch-step-2.png)
 
 Ready! We finish all the steps and the schedule should working with automatic start and stop instance.
+
+> Reference and images visit https://www.lazarete.com.br/posts/start-e-stop-de-inst%C3%A2ncia-ec2-aws-autom%C3%A1tico-utilizando-os-servi%C3%A7os-lambda-e-cloudwatch/
