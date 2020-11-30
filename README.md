@@ -3,13 +3,6 @@
 In this article we abording how to create a schedule to start and stop AWS EC2 instance.
 Basically, that operations help admins and operations have more control under costs. That way, it's easier to predict consuming and you can use the calculator:  [AWS Pricing Calculator](https://calculator.aws/#/)
 
-```mermaid
-graph LR
-B[Lambda Functions] -- have access -- --> A[IAM Role and Policy]
-B -- send commd -- --> C[TAG Instance EC2]
-D[CloudWatch] -- call -- --> B
-```
-
 First of all, it's necessary you have permissions in some services on AWS portal:
 - IAM
 - EC2
